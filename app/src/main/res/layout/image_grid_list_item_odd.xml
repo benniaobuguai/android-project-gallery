@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:layout_marginTop="2dp"
+    android:weightSum="3" >
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <ImageView
+            android:id="@+id/iv_1x1_1"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/null_image"
+            android:padding="0dp"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/iv_1x1_2"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/null_image"
+            android:padding="0dp"
+            android:scaleType="centerCrop" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_1x1_3"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:layout_marginLeft="2dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/null_image"
+        android:padding="0dp"
+        android:scaleType="centerCrop" />
+
+</LinearLayout>

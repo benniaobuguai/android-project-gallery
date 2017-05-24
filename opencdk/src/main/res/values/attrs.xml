@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ListView缺省分割线 -->
+    <attr name="listDivider" format="reference" />
+    
+    <!-- ################################################################################### -->
+    <!-- SwipeRefreshView -->
+    <declare-styleable name="SwipeRefresh">
+
+        <!-- swipe refreshable -->
+        <attr name="srEnable" format="boolean" />
+        
+        <attr name="srScrollbar">
+            <flag name="none" value="0x00000000" />
+            <flag name="horizontal" value="0x00000100" />
+            <flag name="vertical" value="0x00000200" />
+        </attr>
+        
+        <!-- padding -->
+        <attr name="srPaddingLeft" format="dimension" />
+        <attr name="srPaddingRight" format="dimension" />
+        <attr name="srPaddingTop" format="dimension" />
+        <attr name="srPaddingBottom" format="dimension" />
+        
+        
+        
+        <!-- RecyclerView styleable -->
+        <attr name="srOrientation">
+            <flag name="horizontal" value="0" />
+            <flag name="vertical" value="1" />
+        </attr>
+        
+        <attr name="srSpanCount" format="integer" />
+        
+        <attr name="srReverseLayout" format="boolean" />
+        
+        <attr name="srDivider" format="reference" />
+        
+        <!-- show footer load view or not? -->
+        <attr name="srShowLoadView" format="boolean" />
+        
+        <!-- Automatic loading or manual -->
+        <attr name="srLoaderStyle">
+            <flag name="none" value="-1" />
+            <flag name="auto" value="0" />
+            <flag name="manual" value="1" />
+        </attr>
+    </declare-styleable>
+    
+    <!-- ################################################################################### -->
+    
+    
+    
+    
+</resources>

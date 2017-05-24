@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="wo2b_divider_color">#ff666666</color>
+    <color name="wo2b_cachecolorhint">#00000000</color>
+    <!-- <color name="wo2b_white">#ffffff</color> -->
+    <color name="wo2b_whitesmoke">#f5f5f5</color>
+    <color name="wo2b_gainsboro">#dcdcdc</color>
+
+    <color name="wo2b_black">#ff000000</color>
+    <color name="wo2b_dkgray">#ff444444</color>
+    <color name="wo2b_gray">#ff888888</color>
+    <color name="wo2b_ltgray">#ffcccccc</color>
+    <color name="wo2b_white">#ffffffff</color>
+    <color name="wo2b_red">#ffff0000</color>
+    <color name="wo2b_green">#ff008000</color>
+    <color name="wo2b_blue">#ff0000ff</color>
+    <color name="wo2b_yellow">#ffffff00</color>
+    <color name="wo2b_cyan">#ff00ffff</color>
+    <color name="wo2b_magenta">#ffff00ff</color>
+    <color name="wo2b_gray_deep">#ff333333</color>
+    <color name="wo2b_gray_light">#ff999999</color>
+    
+    <color name="wo2b_translucence_00">#00000000</color>
+    <color name="wo2b_translucence_a0">#a0000000</color>
+    <color name="wo2b_translucence_b0">#b0000000</color>
+    <color name="wo2b_translucence_c0">#c0000000</color>
+    <color name="wo2b_translucence_d0">#d0000000</color>
+    <color name="wo2b_translucence_e0">#e0000000</color>
+    <color name="wo2b_translucence_f0">#f0000000</color>
+    
+    <color name="wo2b_border_color_00">#00cccccc</color>
+    <color name="wo2b_border_color_a0">#a0cccccc</color>
+    <color name="wo2b_border_color_b0">#b0cccccc</color>
+    <color name="wo2b_border_color_c0">#c0cccccc</color>
+    <color name="wo2b_border_color_d0">#d0cccccc</color>
+    <color name="wo2b_border_color_e0">#e0cccccc</color>
+    <color name="wo2b_border_color_f0">#f0cccccc</color>
+
+</resources>

@@ -1,0 +1,4 @@
+include ':opencdk'
+include ':tpumeng'
+include ':openwrapper'
+include ':app'

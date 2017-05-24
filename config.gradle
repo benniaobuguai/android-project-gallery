@@ -1,0 +1,30 @@
+def APPLICATION_ID = 'com.wo2b.gallery'
+def APP_DATA_PATH = '/data/data/' + APPLICATION_ID
+
+
+ext {
+
+    android = [
+            compileSdkVersion: 21,
+            buildToolsVersion: "21.1.2",
+            applicationId    : APPLICATION_ID,
+            minSdkVersion    : 8,
+            targetSdkVersion : 17,
+            versionCode      : 20170520,
+            versionName      : "5.2.0"
+    ]
+
+    dependencies = [
+            "appcompat-v7": "com.android.support:appcompat-v7:21.0.3"
+    ]
+
+    normal = [
+    ]
+
+    paths = [
+    ]
+
+
+}
+
+

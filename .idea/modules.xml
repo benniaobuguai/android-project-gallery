@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/android-project-gallery.iml" filepath="$PROJECT_DIR$/android-project-gallery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/opencdk/opencdk.iml" filepath="$PROJECT_DIR$/opencdk/opencdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openwrapper/openwrapper.iml" filepath="$PROJECT_DIR$/openwrapper/openwrapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tpumeng/tpumeng.iml" filepath="$PROJECT_DIR$/tpumeng/tpumeng.iml" />
+    </modules>
+  </component>
+</project>

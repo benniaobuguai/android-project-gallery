@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.opencdk.view.swiperefresh.SwipeRefreshScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipeRefreshView"
+    style="@style/tu_container_common"
+    android:orientation="vertical"
+    app:srEnable="false"
+    app:srScrollbar="none" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/common_margin_bottom"
+        android:paddingTop="@dimen/common_margin_top" >
+
+        <com.wo2b.wrapper.view.LabelEditText
+            android:id="@+id/register_email_let"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_15"
+            android:layout_marginRight="@dimen/dimen_15"
+            app:wo2b_hint="@string/hint_input_register_email"
+            app:wo2b_label="@string/register_email"
+            app:wo2b_label_ems="4" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="25dp"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_send_email"
+                style="@style/global_btn_green"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/send_email" />
+
+            <TextView
+                android:id="@+id/tv_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</com.opencdk.view.swiperefresh.SwipeRefreshScrollView>

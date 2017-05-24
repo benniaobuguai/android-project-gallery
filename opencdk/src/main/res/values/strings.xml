@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="opencdk">opencdk</string>
+    <string name="opencdk_action_settings">Settings</string>
+
+    <string name="null_image">image</string>
+    <string name="null_text"></string>
+    
+    
+    <string name="cdk_cancel">取消</string>
+    
+    <!-- ### Download Module -->
+    <string name="cdk_download_progress_100">100%</string>
+    <string name="cdk_download_progress_0">0%</string>
+    <string name="cdk_downloading">正在下载</string>
+    <string name="cdk_download_ok">下载完成，点击打开</string>
+    <string name="cdk_download_url_repeat">不能重复下载</string>
+    <string name="cdk_download_url_invalid">下载地址无效</string>
+    
+    <string name="cdk_download_file_not_found">文件找不到了</string>
+    
+</resources>

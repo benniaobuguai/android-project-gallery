@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="wo2b_listview" type="id"/>
+    <item name="wo2b_gridview" type="id"/>
+    <item name="wo2b_webview" type="id"/>
+    <item name="wo2b_tabhos" type="id"/>
+    <item name="wo2b_toolbar" type="id"/>
+    <item name="wo2b_viewpager" type="id"/>
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/tu_container_common"
+    android:orientation="vertical" >
+
+    <com.opencdk.view.swiperefresh.SwipeRefreshRecyclerLinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@id/wo2b_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
+        app:srDivider="@drawable/list_divider_light"
+        app:srOrientation="vertical"
+        
+        app:srLoaderStyle="manual"
+        app:srReverseLayout="false"
+        app:srShowLoadView="false" />
+
+</RelativeLayout>

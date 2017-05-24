@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.opencdk.view.swiperefresh.SwipeRefreshScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipeRefreshView"
+    style="@style/tu_container_common"
+    app:srEnable="false"
+    app:srScrollbar="none" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/common_margin_bottom" >
+
+        <com.wo2b.wrapper.view.XPreference
+            android:id="@+id/xp_user_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/theme_layout_margin_top"
+            app:label="@string/null_text"
+            app:position="single"
+            app:wo2b_icon="@drawable/xp_gravatar" />
+
+        <com.wo2b.wrapper.view.XPreference
+            android:id="@+id/xp_local_album"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/theme_xp_margin"
+            app:label="@string/local_album"
+            app:position="top"
+            app:wo2b_icon="@drawable/xp_icon_local_album" />
+
+        <com.wo2b.wrapper.view.XPreference
+            android:id="@+id/xp_my_favorites"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:label="@string/my_favorites"
+            app:position="last"
+            app:wo2b_icon="@drawable/xp_icon_my_favorites" />
+
+        <com.wo2b.wrapper.view.XPreference
+            android:id="@+id/xp_support_developer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:label="@string/support_developer"
+            app:position="last"
+            app:wo2b_icon="@drawable/xp_icon_support_developer" />
+
+        <com.wo2b.wrapper.view.XPreference
+            android:id="@+id/xp_wo2b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/theme_xp_margin"
+            app:label="@string/wo2b_home"
+            app:position="top"
+            app:wo2b_icon="@drawable/xp_icon_wo2b" />
+
+        <com.wo2b.wrapper.view.XPreference
+            android:id="@+id/xp_wo2b_app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:label="@string/wo2b_works"
+            app:position="middle"
+            app:wo2b_icon="@drawable/xp_icon_wo2b_works" />
+
+        <com.wo2b.wrapper.view.XPreference
+            android:id="@+id/xp_statement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:label="@string/statement"
+            app:position="middle"
+            app:wo2b_icon="@drawable/xp_icon_statement" />
+
+        <com.wo2b.wrapper.view.XPreference
+            android:id="@+id/xp_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:label="@string/about"
+            app:position="last"
+            app:wo2b_icon="@drawable/xp_icon_about" />
+    </LinearLayout>
+
+</com.opencdk.view.swiperefresh.SwipeRefreshScrollView>

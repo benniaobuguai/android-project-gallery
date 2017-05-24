@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/tu_container_common"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <com.wo2b.wrapper.view.XPreferenceExtra
+                android:id="@+id/xp_wallpaper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:enabled="false"
+                app:indicator_state="checkbox"
+                app:label="@string/set_wallpaper"
+                app:position="top"
+                app:prefs_default="true"
+                app:prefs_key="@string/pk_wallpaper" />
+
+            <com.wo2b.wrapper.view.XPreferenceExtra
+                android:id="@+id/xp_auto_play"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:enabled="false"
+                app:indicator_state="checkbox"
+                app:label="@string/auto_play"
+                app:position="middle"
+                app:prefs_default="true"
+                app:prefs_key="@string/pk_auto_play" />
+
+            <com.wo2b.wrapper.view.XPreferenceExtra
+                android:id="@+id/xp_cache_local"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:enabled="false"
+                app:indicator_state="checkbox"
+                app:label="@string/cache_local"
+                app:position="last"
+                app:prefs_default="true"
+                app:prefs_key="@string/pk_cache_local" />
+
+            <com.wo2b.wrapper.view.XPreferenceExtra
+                android:id="@+id/xp_image_download"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:enabled="false"
+                app:indicator_state="checkbox"
+                app:label="@string/image_download"
+                app:position="last"
+                app:prefs_default="true"
+                app:prefs_key="@string/pk_image_download"
+                android:visibility="gone" />
+
+            <com.wo2b.wrapper.view.XPreferenceExtra
+                android:id="@+id/xp_bg_music"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:indicator_state="checkbox"
+                app:label="@string/bg_music"
+                app:position="one"
+                app:prefs_key="@string/pk_bg_music"
+                android:visibility="gone" />
+
+            <com.wo2b.wrapper.view.XPreference
+                android:id="@+id/xp_open_lock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:indicator_state="arrow"
+                app:label="@string/lock_encode"
+                app:position="one"
+                app:prefs_default="true"
+                app:prefs_key="@string/pk_password_lock" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
