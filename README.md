@@ -2,8 +2,8 @@
 ## 项目结构
 图界传说只是基于此框架下的一个很小的应用场景，[opencdk] + [openwrapper]本身是一套通用的项目框架，能够让你基于此项目快速搭建属于你自己的项目框架。
 >android-project-gallery  
->\---openwrapper
->\-----opencdk 
+>\---openwrapper  
+>\-----opencdk  
 >\-----tp-umeng  
 
 
@@ -27,7 +27,6 @@
 + #### 其它的待补充
 
 
-
 ***
 ## 重大版本更新日志
 1. 2017-05-25 更新Android Studio版本
@@ -43,11 +42,11 @@
 </p>
 
 
-
+***
 ## 后续
 + 接入DA框架, RxAndroid
-+ 
++ ...
 
 
-
+***
 ## 有问题反馈
